@@ -64,7 +64,27 @@ body {
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
 .wrapper .btn:hover {
     /* 外框 */
-    border: 1px solid #51515150;
+    border: 1px solid #5d5c5c50;
     /* 陰影 */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.wrapper .btn-one {
+    color: azure;
+    background-color: brown;
+    border-color: brown;
+}
+.wrapper .btn-two {
+    color: beige;
+    background-color: rgb(21, 140, 164);
+    border-color: rgb(21, 140, 164)n;
+}
+.wrapper .btn-three {
+    color:  rgb(238, 210, 241);
+    background-color:  rgb(196, 49, 176);
+    border-color: rgb(196, 49, 176);
+}
+.wrapper .btn-four {
+    color: rgb(226, 243, 223);
+    background-color:  rgb(45, 146, 45);
+    border-color: rgb(45, 146, 45);
 }
